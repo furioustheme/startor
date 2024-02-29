@@ -1,0 +1,40 @@
+.service-block{
+	padding: 40px;
+	border:1px solid rgba(0,0,0,0.04);
+	 -webkit-transition: all 0.3s ease-in-out;
+       -moz-transition: all 0.3s ease-in-out;
+        -ms-transition: all 0.3s ease-in-out;
+         -o-transition: all 0.3s ease-in-out;
+            transition: all 0.3s ease-in-out;
+
+
+	&:hover{
+		background: $light;
+		box-shadow: 12px 7px 90px 0 rgba(110,123,131,.1);
+	}
+
+	i{
+		font-size: 60px;
+	}
+
+
+	.learn-more{
+		border-bottom:1px solid rgba(0,0,0,0.05);
+		padding-bottom: 5px;
+		i{
+			font-size: 12px;
+		}
+
+		&:hover{
+			color: $primary-color;
+		}
+	}
+
+	span{
+		font-size: 70px;
+		opacity: .1;
+		position: absolute;
+		top:0px;
+	}
+}
+

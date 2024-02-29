@@ -1,0 +1,177 @@
+
+/*--------------------
+Common Styles
+-----------------*/
+
+.section-heading {
+    margin-bottom: 80px;
+}
+
+.section {
+    position: relative;
+    padding: 8.125rem 0;
+}
+
+@media (min-width:768px) {
+    .section {
+        padding: 7.5rem 0
+    }
+}
+
+.section-top {
+    padding-top: 8.125rem;
+}
+
+.section-bottom {
+    padding-bottom: 8.125rem;
+}
+
+@media (min-width:768px) {
+    .section-top {
+        padding-top: 10.3125rem
+    }
+}
+
+
+.bg-grey {
+    background: #F4F7FC;
+}
+
+/*-------------------
+  BUTTONS STYLE
+----------------=----*/
+
+.btn {
+    font-weight: 500;
+    position: relative;
+    text-transform: capitalize;
+    padding: 11px 40px;
+    border-radius: 4px;
+    font-weight: 500;
+    font-size: 14px;
+    font-family: $primary-font;
+    cursor: pointer;
+    border: 1px solid transparent;
+    transition: all 0.2s ease-in-out;
+     -webkit-transform: translateY(0px);
+           -moz-transform: translateY(0px);
+            -ms-transform: translateY(0px);
+             -o-transform: translateY(0px);
+                transform: translateY(0px);
+    -webkit-transition: all 0.3s ease-in-out !important;
+       -moz-transition: all 0.3s ease-in-out !important;
+        -ms-transition: all 0.3s ease-in-out !important;
+         -o-transition: all 0.3s ease-in-out !important;
+            transition: all 0.3s ease-in-out !important;
+
+          
+}
+
+.btn:focus {
+    box-shadow: none !important
+}
+
+
+.btn-main{
+    border-color:  #e8e1fc;
+    color: #5e2ced;
+    background: #e8e1fc;
+    &:hover{
+        background:#5e2ced;
+        color: $light;
+        border-color:#5e2ced;
+    }
+}
+
+
+.btn-main-2{
+    border-color:#d4f6ee;
+    color: #00c99c;
+    background: #d4f6ee;
+    &:hover{
+        background: #00c99c;
+        color: $light;
+        border-color:#00c99c;
+    }
+}
+
+
+.btn-white{
+     background: $light!important;
+     color:$primary-color;
+     border-color:$light;
+}
+
+
+.btn-border-tp{
+    border-color: $primary-color;
+    background: transparent;
+    color: $primary-color;
+
+    &:hover{
+        background: $primary-color;
+        color: $light!important;
+    }
+}
+
+
+/*------------------------
+ BACKGROUND
+----------------------------*/
+.gradient-bg {
+    background-image: linear-gradient(25deg, #796eff 0%, #21c87a 100%);
+    background-repeat: repeat-x;
+}
+
+.bg-cover {
+    background-repeat: no-repeat;
+    background-position: 50%;
+    background-size: cover
+}
+
+.bg-cover,
+.bg-overlay,
+.bg-overlay:before {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0
+}
+
+.bg-overlay:before {
+    content: "";
+    opacity: .55;
+    background-color: #212529
+}
+
+.bg-primary{
+    background: $primary-color!important;
+}
+
+a {
+   color: $black;
+   -webkit-transition: all 0.3s ease-in-out;
+       -moz-transition: all 0.3s ease-in-out;
+        -ms-transition: all 0.3s ease-in-out;
+         -o-transition: all 0.3s ease-in-out;
+            transition: all 0.3s ease-in-out;
+}
+
+a:hover, a:focus {
+    outline: none;
+    text-decoration: none;
+    color: $primary-color;
+}
+
+.border-top {
+    border-top: 1px solid rgba(0,0,0,0.08)!important;
+}
+.border-bottom {
+    border-bottom: 1px solid rgba(0,0,0,0.08)!important;
+}
+
+
+.text-color-2{
+    color: $secondary-color;
+}

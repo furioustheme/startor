@@ -1,0 +1,17 @@
+.pricing-box{
+	box-shadow: 12px 7px 90px 0 rgba(110,123,131,.1);
+	background: $light;
+	border-radius: 5px;
+
+	.price{
+		h2{
+			font-size: 70px;
+		}
+	}
+	.price-features{
+		margin: 30px 0px;
+		li{
+			padding: 5px 0px;
+		}
+	}
+}

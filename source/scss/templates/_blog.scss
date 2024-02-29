@@ -1,0 +1,22 @@
+// Blog home
+
+.blog-item{
+    box-shadow: 12px 7px 90px 0 rgba(110, 123, 131, 0.1);
+    background: $light;
+    border-radius:3px;
+    .blog-item-content{
+        padding: 30px;
+    }
+
+
+    .learn-more{
+		padding-top: 20px;
+		display: inline-block;
+		color: $primary-color;
+		font-weight: 600;
+	}
+}
+
+.text-color{
+    color: $primary-color;
+}
