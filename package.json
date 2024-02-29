@@ -7,7 +7,7 @@
   "scripts": {
     "dev": "gulp",
     "build": "gulp build",
-    "netlify": "gulp netlify"
+    "deploy": "gulp deploy"
   },
   "dependencies": {
     "browser-sync": "^2.27.10",

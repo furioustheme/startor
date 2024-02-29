@@ -1,6 +1,6 @@
 [build]
 publish = "builds"
-command = "npm run netlify"
+command = "npm run deploy"
 
 [[headers]]
 for = "/*" # This defines which paths this specific [[headers]] block will cover.
